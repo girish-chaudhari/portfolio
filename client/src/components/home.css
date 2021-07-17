@@ -1,0 +1,23 @@
+.box {
+    position: relative;
+}
+.box .left {
+  height: 100vh;
+  background-color: #f8f9fa;
+  width: 50%;
+}
+.absolute {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .right{
+    width: 50%;
+    height: 100vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
